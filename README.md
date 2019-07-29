@@ -8,7 +8,7 @@ You must first install 3 Libraries through arduino, in order for this library to
 Follow the instructions in the first paragraph of each section to download the correct libraries, and you can ignore the rest.
 
 ## How to use this Library
-You must first download this library to use it. On this github page, there is a green button that says **clone or download**. Click this button. It will open up a small window. On the bottom right of the window, it will say: **Download as Zip**. Click this button, and save it somewhere on your desktop. You then need to unzip this file by right clicking and clicking unzip. This will leave you with a single folder called *House*. Move this folder to *Documents\Arduino\libraries*. After dropping this file in there, you may use this code by adding this to the top of your code in any Arduino sketch:
+You must first download this library to use it. On this github page, there is a green button that says **clone or download**. Click this button. It will open up a small window. On the bottom right of the window, it will say: **Download as Zip**. Click this button, and save it somewhere on your desktop. You then need to unzip this file by right clicking and clicking unzip. This will leave you with a single folder called **House**. Move this folder to **Documents\Arduino\libraries**. After dropping this file in there, you may use this code by adding this to the top of your code in any Arduino sketch:
 ```
 #include <House.h>
 ```
