@@ -2,7 +2,7 @@
 House Library for CSU.
 This library will handle all the components used in the house. It will take care of the temperature sensor, pir motion sensor, and lcd screen. This page will be updated if we add more sensors.
 
-##How to use this Library##
+## How to use this Library
 To initialize the House you must add:
 ```
 House myHouse();
