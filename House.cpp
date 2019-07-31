@@ -27,9 +27,3 @@ bool House::detect_motion() const
   int pir_val = digitalRead(pir_pin);
   return pir_val;
 }
-
-template <typename T>
-void House::print(const T &in)
-{
-  lcd.print(in);
-}

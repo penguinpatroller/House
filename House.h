@@ -16,7 +16,10 @@ public:
   bool detect_motion() const;
 
   template <typename T>
-  void print(const T &in);
+  void House::print(const T &in)
+  {
+    lcd.print(in);
+  }
 
 
 private:
