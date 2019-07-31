@@ -29,6 +29,7 @@ void House::init()
 
 void House::display_temp()
 {
+  lcd.setCursor(0,0);
   lcd.print("Temp: ");
   lcd.print(get_temp());
   lcd.setCursor(0,0);
