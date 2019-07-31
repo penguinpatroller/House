@@ -40,3 +40,8 @@ myHouse.detect_motion();
 ```
 
 This will return a boolean, a value of either true or false to the user. True means that it detected movement, while False means that it didn't.
+
+
+### People
+Alex
+Michael
