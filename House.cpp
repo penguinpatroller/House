@@ -13,7 +13,7 @@ float House::get_temp() const
 bool House::detect_motion() const
 {
   int pir_val = digitalRead(pir_pin);
-  return pir_val;
+  return (pir_val == 1);
 }
 
 void House::init()
